@@ -1,0 +1,17 @@
+{
+  "name": "technoval-cart/before",
+  "version": "1.0.0",
+  "description": "Magento2 Module",
+  "type": "magento2-module",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "TechnovalCart\\Before\\": ""
+    }
+  }
+}
